@@ -64,8 +64,9 @@ p {
     font-size: 2rem;
     font-family: Bungee;
     color: #fff;
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
     margin-bottom: 3rem;
 }
 
