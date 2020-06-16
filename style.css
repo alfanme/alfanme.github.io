@@ -1,18 +1,17 @@
 /* ------- Global class ------- */
 
 body {
-    background-color: #e2e8f0;
+    background-color: #2d3748;
     overflow: hidden;
     margin: 0;
 }
 
 a {
     text-decoration: none;
-    color: #2d3748;
 }
 
 a:visited {
-    color: #2d3748;
+    color: #fff;
 }
 
 ul {
@@ -21,7 +20,7 @@ ul {
 
 h1 {
     font-family: Bungee;
-    color: #2d3748;
+    color: #fff;
     font-size: 1.75rem;
 }
 
@@ -35,7 +34,7 @@ h6 {
 p {
     font-family: Roboto Mono;
     font-weight: normal;
-    color: #2d3748;
+    color: #fff;
     font-size: 1rem;
     line-height: 1.5;
     text-align: justify;
@@ -49,10 +48,10 @@ p {
 .nav {
     width: 100%;
     min-height: 10vh;
-    background-color: white;
+    background-color: #2d3748;
     padding-top: 3rem;
     padding-bottom: 1.5rem;
-    box-shadow: 0rem 0.5rem 2rem #e2e8f0;
+    box-shadow: 0rem 0.5rem 2rem #263238;
 }
 
 .nav .container {
@@ -65,7 +64,7 @@ p {
 .nav .logo {
     font-size: 2rem;
     font-family: Bungee;
-    color: #2d3748;
+    color: #fff;
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
@@ -92,6 +91,10 @@ p {
 
 .nav .menu li {
     margin: 0 2rem;
+}
+
+.nav .menu li a {
+    color: #fff;
 }
 
 .nav .menu li a:hover{
@@ -128,6 +131,7 @@ p {
     font-weight: 500;
     font-size: 0.75rem;
     padding: 0.25rem 0;
+    color: #2d3748;
 }
 
 .social .container a:hover {
@@ -149,18 +153,18 @@ p {
 
 .profile .profile-card {
     width: 80%;
-    background-color: white;
+    background-color: #2d3748;
     border-radius: 2rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    box-shadow: 0rem 0.5rem 2rem #e2e8f0;
+    box-shadow: 0rem 0.5rem 2rem #263238;
 }
 
 .profile .profile-card .container img {
     width: 8em;
     height: 8em;
     border-radius: 5em;
-    box-shadow: 0rem 0.5rem 2rem #e2e8f0;
+    box-shadow: 0rem 0.5rem 2rem #263238;
     margin-right: 3rem;
 }
 
