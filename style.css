@@ -158,6 +158,7 @@ p {
     border-radius: 2rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    padding: 2rem 0;;
     box-shadow: 0rem 0.5rem 2rem #182024;
 }
 
@@ -198,8 +199,7 @@ p {
 
 .profile .profile-card .container .text-wrap {
     padding-top: 2.5rem;
-    margin: 0 2rem;
-    
+    margin: 0 5rem;
 }
 
 .profile .profile-card .container .text-wrap a {
@@ -240,6 +240,15 @@ p {
 /* ---x--- Footer ---x--- */
 
 /* ------------------- Media Queries ------------------- */
+
+@media only screen and (max-width: 996px) {
+    .profile .profile-card .container .flex-row{
+        scale: 0.9;
+    }
+    .profile .profile-card .container .text-wrap {
+        margin: 0 1.5rem;
+    } 
+}
 
 @media only screen and (max-width: 698px) {
     .nav .menu {
