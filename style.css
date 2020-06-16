@@ -254,6 +254,7 @@ p {
     .nav .menu {
         display: block;
         text-align: center;
+        margin-left: -2.5rem;
     }
 
     .nav .menu li {
