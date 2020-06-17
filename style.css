@@ -23,6 +23,12 @@ h1 {
     font-size: 1.75rem;
 }
 
+h2 {
+    font-family: Bungee;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
 h6 {
     font-family: Roboto Mono;
     font-weight: 600;
@@ -33,10 +39,10 @@ h6 {
 p {
     font-family: Roboto Mono;
     font-weight: normal;
-    color: #fff;
+    color: #a0aec0;
     font-size: 1rem;
     line-height: 1.5;
-    text-align: justify;
+    text-align: left;
 }
 
 /* ---x--- Global class ---x--- */
@@ -150,7 +156,7 @@ p {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .profile .profile-card {
@@ -237,6 +243,79 @@ p {
     text-align: center;
     font-size: 0.75rem;
 }
+
+/* ------- Hobbies -------- */
+.hobbies {
+    width: 100%;
+    padding: 3rem 0;
+    margin-bottom: 1.5rem;
+}
+
+.hobbies h1 {
+    text-align: center;
+}
+
+.hobbies .cards-container {
+    width: 100%;
+    
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.hobbies .hobbies-card {
+    width: 20rem;
+    margin: 1.5rem 1.5rem;
+    padding: 3rem 1rem 1rem 1rem;
+    border: 0 solid;
+    border-radius: 2rem;
+    background-color: #2d3748;
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies .container {
+    width: 90%;
+    background-color: #2d3748;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hobbies img {
+    height: 15rem;
+    width: 100%;
+}
+
+.hobbies h2 {
+    text-align: center;
+}
+
+.hobbies p {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.hobbies a {
+    margin-top: 1.5rem;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    font-family: Roboto Mono;
+    padding: 0.75rem 1rem;
+    border: 0 solid;
+    border-radius: 1rem;
+    background-color: #3b465a;
+}
+
+.hobbies a:hover {
+    background-color: #47546b;
+    transition: all 0.5s ease;
+}
+
+/* ---x--- Hobbies ---x---- */
 
 /* ---x--- Footer ---x--- */
 
