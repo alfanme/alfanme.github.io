@@ -52,7 +52,6 @@ p {
 
 .nav {
     width: 100%;
-    min-height: 10vh;
     background-color: #2d3748;
     padding-top: 3rem;
     padding-bottom: 1.5rem;
@@ -153,19 +152,19 @@ p {
 
 .profile {
     width: 100%;
+    min-height: calc(100vh - 12.75rem);
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-bottom: 2rem;
+    margin: auto;
 }
 
 .profile .profile-card {
     width: 80%;
     background-color: #2d3748;
     border-radius: 2rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    padding: 2rem 0;;
+    padding: 2rem 0;
+    margin: 5rem 0;
     box-shadow: 0rem 0.5rem 2rem #182024;
 }
 
@@ -223,33 +222,11 @@ p {
 
 /* ---x--- Profile Card ---x--- */
 
-/* ------- Footer ------- */
-
-.footer {
-    width: 100%;
-    background-color: aquamarine;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
-}
-
-.footer .desktop-footer {
-    color: #2d3748;
-    text-align: center;
-    font-size: 0.75rem;
-}
-
-.mobile-footer {
-    display: none;
-    color: #2d3748;
-    text-align: center;
-    font-size: 0.75rem;
-}
-
 /* ------- Hobbies -------- */
 .hobbies {
     width: 100%;
-    padding: 3rem 0;
-    margin-bottom: 1.5rem;
+    min-height: calc(100vh - 14rem);
+    padding: 3rem 0 2rem 0;
 }
 
 .hobbies h1 {
@@ -268,7 +245,7 @@ p {
 .hobbies .hobbies-card {
     width: 20rem;
     margin: 1.5rem 1.5rem;
-    padding: 3rem 1rem 1rem 1rem;
+    padding: 2rem 1rem 1rem 1rem;
     border: 0 solid;
     border-radius: 2rem;
     background-color: #2d3748;
@@ -321,6 +298,28 @@ p {
 }
 
 /* ---x--- Hobbies ---x---- */
+
+/* ------- Footer ------- */
+
+.footer {
+    width: 100%;
+    background-color: aquamarine;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.footer .desktop-footer {
+    color: #2d3748;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.mobile-footer {
+    display: none;
+    color: #2d3748;
+    text-align: center;
+    font-size: 0.75rem;
+}
 
 /* ---x--- Footer ---x--- */
 
