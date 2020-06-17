@@ -196,6 +196,7 @@ p {
 .profile .profile-card .container .flex-row{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .profile .profile-card .container .flex-block{
@@ -265,7 +266,7 @@ p {
 }
 
 .hobbies img {
-    height: 30vh;
+    height: 15em;
 }
 
 .hobbies img:hover {
