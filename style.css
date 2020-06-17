@@ -257,7 +257,6 @@ p {
 
 .hobbies .cards-container {
     width: 100%;
-    
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
@@ -325,9 +324,14 @@ p {
     .profile .profile-card .container .flex-row{
         scale: 0.9;
     }
+    
     .profile .profile-card .container .text-wrap {
         margin: 0 1.5rem;
     } 
+
+    .hobbies .hobbies-card {
+        width: 75%;
+    }
 }
 
 @media only screen and (max-width: 698px) {
@@ -355,8 +359,18 @@ p {
     }
 
     .profile .profile-card .container .text-wrap {
-        margin: 0 1rem;
+        margin: 0 0rem;
         margin-top: -2rem;
+    }
+
+    .profile .profile-card .container .text-wrap p {
+        text-align: center;
+    }
+
+    .profile .profile-card .container .text-wrap a {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
     }
 
     .footer .desktop-footer {
