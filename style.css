@@ -288,6 +288,11 @@ p {
     width: 100%;
 }
 
+.hobbies img:hover {
+    scale: 0.95;
+    transition: all 0.3 ease;
+}
+
 .hobbies h2 {
     text-align: center;
 }
