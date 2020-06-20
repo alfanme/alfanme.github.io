@@ -157,10 +157,10 @@ p {
 }
 
 .social .container a {
-    display: inline-flex;
+    width: calc(100% / 3);
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(100% / 3);
     /* background-color: red; */
 }
 
@@ -306,7 +306,7 @@ p {
 }
 
 .hobbies .cards-container {
-    width: calc(100% - 1.5rem);
+    width: 100%;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
     display: flex;
