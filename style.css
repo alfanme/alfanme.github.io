@@ -188,19 +188,19 @@ p {
 }
 
 .social .container a img {
-    padding: 0.5rem 0;
+    padding: 0.75rem 0;
     margin-left: 3rem;
     border-radius: 0;
     box-shadow: none;
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 1.25rem;
+    width: 1.25rem;
     /* background-color: yellow; */
     display: none;
 }
 
 .social .container a img:hover {
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 1.25rem;
+    width: 1.25rem;
     background-color: #d18df0;
     border: #d18df0;
 }
