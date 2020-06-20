@@ -135,13 +135,14 @@ p {
 }
 
 .social .container {
-    margin: auto;
+    margin: 0 auto;
     width: 60%;
     background-color: aquamarine;
-    border-top-left-radius: 4rem;
-    border-top-right-radius: 4rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
     display: flex;
     justify-content: space-evenly;
+
     position: relative;
     top: 0rem;
     margin-bottom: 0rem;
@@ -156,21 +157,51 @@ p {
 }
 
 .social .container a {
-    font-family: Roboto Mono;
-    letter-spacing: 0.0125rem;
-    font-weight: 500;
-    font-size: 0.75rem;
-    padding: 0.75rem 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: calc(100% / 3);
-    color: #2d3748;
-    /* border-radius: 1rem; */
-    /* background-color: yellow; */
+    /* background-color: red; */
 }
 
 .social .container a:hover {
     background-color: #d18df0;
-    color: white;
     border-radius: 1rem;
+}
+
+.social .container a p {
+    margin: 0;
+    width: 100%;
+    padding: 0.75rem 0;
+    font-family: Roboto Mono;
+    letter-spacing: 0.0125rem;
+    font-weight: 500;
+    font-size: 0.75rem;
+    text-align: center;
+    color: #2d3748;
+    /* background-color: red; */
+}
+
+.social .container a p:hover {
+    color: #fff;
+}
+
+.social .container a img {
+    padding: 0.5rem 0;
+    margin-left: 3rem;
+    border-radius: 0;
+    box-shadow: none;
+    height: 1.5rem;
+    width: 1.5rem;
+    /* background-color: yellow; */
+    display: none;
+}
+
+.social .container a img:hover {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #d18df0;
+    border: #d18df0;
 }
 
 /* ---x--- Social Media ---x---*/
@@ -408,7 +439,22 @@ p {
     }
 
     .social .container{
-        width: 90%;
+        width: 60%;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+    }
+
+    .social .container:hover {
+        position: relative;
+        top: 0.3rem;
+    }
+
+    .social .container a p {
+        display: none;
+    }
+
+    .social .container a img {
+        display: unset;
     }
 
     .profile .profile-card .container img {
