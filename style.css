@@ -392,7 +392,7 @@ p {
 
 .arijit {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-content: center;
     /* background-color: green; */
@@ -408,7 +408,7 @@ p {
 }
 
 .arijit .flex-column h1{
-    margin-bottom: 7rem;
+    margin-bottom: 6rem;
     text-align: center;
 }
 
@@ -417,12 +417,14 @@ p {
     width: 80%;
     /* background-color: red; */
     display: flex;
-    justify-content: start;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .arijit .vid-container video {
-    width: 40vw;
-    height: calc(40vw * 9/16);
+    width: 70vw;
+    height: calc(width* 9/16);
     border-radius: 1.5rem;
     background-color: #000;
     box-shadow: 0rem 0.5rem 2rem rgba(0, 0, 0, .3);
@@ -436,13 +438,13 @@ p {
 }
 
 .arijit .text-container {
-    /* background-color: blue; */
+    /* background-color: orange; */
     margin: 2rem 2rem 2rem 5rem;
 }
 
 .arijit .text-container h2 {
-    font-size: 2.75rem;
-    margin-top: 1rem;
+    font-size: 3vw;
+    margin-top: 0rem;
     color: #fff;
     transform: scale(1);
     transition: all 0.5s;
@@ -506,6 +508,40 @@ p {
     .hobbies .hobbies-card {
         width: 75%;
     }
+
+    .arijit .vid-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+
+    .arijit .vid-container video {
+        width: 80vw;
+        height: calc(width* 9/16);
+    }
+
+    .arijit .text-container {
+        margin: 2rem 0;
+        width: 80%;
+        text-align: center;
+    }
+
+    .arijit .text-container h2 {
+        font-size: 1.75rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .arijit .text-container p {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .arijit .text-container a {
+        /* display: flex; */
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 698px) {
@@ -550,16 +586,12 @@ p {
     .profile .profile-card .container .text-wrap {
         margin: 0 0rem;
         margin-top: -2rem;
+        text-align: center;
     }
 
     .profile .profile-card .container .text-wrap p {
         text-align: center;
-    }
-
-    .profile .profile-card .container .text-wrap a {
-        display: flex;
-        justify-content: center;
-        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 
     .footer .desktop-footer {
