@@ -388,6 +388,86 @@ p {
 
 /* ---x--- Hobbies ---x---- */
 
+/* ------- Arijit ------- */
+
+.arijit {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    /* background-color: green; */
+}
+
+.arijit .flex-column {
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 7rem;
+}
+
+.arijit .flex-column h1{
+    margin-bottom: 7rem;
+    text-align: center;
+}
+
+.arijit .vid-container {
+    margin: auto;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: start;
+}
+
+.arijit .vid-container video {
+    width: 40vw;
+    height: calc(40vw * 9/16);
+    border-radius: 1.5rem;
+    background-color: #000;
+    box-shadow: 0rem 0.5rem 2rem rgba(0, 0, 0, .3);
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+.arijit .vid-container video:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.arijit .text-container {
+    /* background-color: blue; */
+    margin: 2rem 2rem 2rem 5rem;
+}
+
+.arijit .text-container h2 {
+    font-size: 2.75rem;
+    margin-top: 1rem;
+    color: #fff;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.arijit .text-container h2:hover {
+    color: aquamarine;
+    transform: scale(0.95);
+}
+
+.arijit .text-container a {
+    color: #d18df0;
+    font-family: Roboto Mono;
+    font-weight: 500;
+    font-size: 1rem;
+    border-bottom: 0rem solid #d18df0;
+    transition: border-bottom 0.3s;
+}
+
+.arijit .text-container a:hover {
+    border-bottom: 0.15rem solid #d18df0;
+}
+
+/* ---x--- Arijit ---x--- */
+
 /* ------- Footer ------- */
 
 .footer {
