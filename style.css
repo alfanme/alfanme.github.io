@@ -404,6 +404,7 @@ p {
     /* background-color: blue; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: auto;
     margin-top: 7rem;
 }
@@ -423,8 +424,8 @@ p {
 }
 
 .arijit .vid-container-left video {
-    width: 70vw;
-    height: calc(width* 9/16);
+    width: 50%;
+    height: calc(width * 9/16);
     border-radius: 1.5rem;
     background-color: #000;
     box-shadow: 0rem 0.5rem 2rem rgba(0, 0, 0, .3);
@@ -439,7 +440,8 @@ p {
 
 .arijit .vid-container-left .text-container {
     /* background-color: orange; */
-    margin: 2rem 0rem 2rem 5rem;
+    width: calc(50% - 5rem);
+    margin: 0 2rem 0 5rem;
 }
 
 .arijit .text-container h2 {
@@ -483,7 +485,7 @@ p {
 }
 
 .arijit .vid-container-right video {
-    width: 70vw;
+    width: 50%;
     height: calc(width* 9/16);
     border-radius: 1.5rem;
     background-color: #000;
@@ -499,7 +501,8 @@ p {
 
 .arijit .vid-container-right .text-container {
     /* background-color: orange; */
-    margin: 2rem 5rem 2rem 2rem;
+    width: calc(50% - 5rem);
+    margin: 0 5rem 0 2rem;
 }
 
 /* ---x--- Arijit ---x--- */
